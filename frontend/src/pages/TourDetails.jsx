@@ -128,7 +128,7 @@ const TourDetails = () => {
 
                   <ListGroup className="user__reviews">
                     {reviews?.map((review) => (
-                      <div className="review__item">
+                      <div className="review__item" key={review.id}>
                         <img src={avatar} alt="" />
 
                         <div className="w-100">

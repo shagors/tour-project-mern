@@ -52,7 +52,7 @@ const Footer = () => {
               <div className="social__links d-flex align-items-center gap-4">
                 <span>
                   <Link to="">
-                    <i class="ri-linkedin-box-line"></i>
+                    <i className="ri-linkedin-box-line"></i>
                   </Link>
                 </span>
                 <span>
